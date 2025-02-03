@@ -1,5 +1,74 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: blue;
+
+.general{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: green;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    width: 28%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-top: 10px;	
+    padding-bottom: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20%;
+    margin: 2px;
+    padding: 1px;
+    background: white;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 45%;
+    margin: 2px;
+    margin-right: 2px;
+    background: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width:99%;
+    height: 20%;
+    margin: 2px;
+    background: white;
+}
+
+.bottom-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background:white
+}
+
+.card-sign{
+    font-size: 100px;
+    color: red;
+}
+
+.card-number{
+    font-size: 150px;
+    color: black;
 }
